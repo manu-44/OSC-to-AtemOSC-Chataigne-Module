@@ -1,0 +1,133 @@
+{
+	"name":"Atem OSC",
+	"type":"OSC",
+	"path":"Software",
+	
+	"version":"1.0.0",
+	"description":"Manu's special module to control AtemOSC through OSC",
+	"url":"https://github.com/",
+	"downloadURL":"https://github.com/",
+
+	"hasInput":true,
+	"hasOutput":true, 
+
+	"hideDefaultCommands":false,
+	
+	"defaults":
+	{		
+		"baudRate":115200,
+		"autoAdd":false,
+		"OSC Input":
+		{
+			"localPort":8000
+		},
+		"OSC Output":
+		{
+			"remotePort":9000
+		}
+	},
+
+	"parameters":
+	{
+	},
+
+
+	"hideDefaultParameters":
+	[
+		"autoAdd",
+		"splitArguments",
+		"autoRange",
+		"autoFeedback"
+	],
+
+
+	"scripts":
+	[
+		"ATEMOSC.js"
+	],
+
+	"values":
+	{
+	},
+
+	"commands":
+	{
+		
+		"Source Selection":
+		{
+			"menu":"",
+			"callback":"selectionCallback",
+			"parameters":
+			{
+				"Program/Preview":
+				{
+					"type":"Enum",
+					"options":
+					{
+						"Program":"program",
+						"Preview":"preview",
+					}
+				},
+				"Source":
+				{
+					"type":"Enum",
+					"options":
+					{
+						"Black":"0",
+						"Cam 1":"1",
+						"Cam 2":"2",
+						"Cam 3":"3",
+						"Cam 4":"4",
+						"Cam 5":"5",
+						"Cam 6":"6",
+						"Colors Bars":"1000",
+						"Color 1":"2001",
+						"Color 2":"2002",
+						"Media 1":"3010",
+						"Media 2":"3010",
+						"Key 1 Mask":"4010",
+						"DSK 1 Mask":"5010",
+						"DSK 2 Mask":"5020",
+						"Clean Feed 1":"7001",
+						"Clean Feed 2":"7002",
+						"Auxiliary 1":"8001"
+					}
+				},
+				
+				
+			}
+		},
+
+		"Transition Control":
+		{
+			"menu":"",
+			"callback":"transitionCallback",
+			"parameters":
+			{
+				"Type":
+				{
+					"type":"Enum",
+					"options":
+					{
+						"T Bar":"bar",
+						"Cut":"cut",
+						"Auto":"auto",
+						"Fade to Black":"ftb",
+						"Preview Transition":"preview true",
+					}
+				},
+				"T Bar":
+				{
+					"type":"Float",
+					"min":0,
+					"max":1,
+					"dependency": 
+					{
+						"source":"type",
+						"value":"bar",
+						"check":"equals",
+						"action":"show"
+					}
+				},				
+			}
+		},

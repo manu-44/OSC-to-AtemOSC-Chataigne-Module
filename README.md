@@ -1,2 +1,2 @@
-# OSC to AtemOSC
-Custom Module to send OSC message to AtemOSC
+# EOS-OSC-Chataigne-Module
+Mike's Special EOS Console OSC Control
