@@ -1,2 +1,2 @@
-# EOS-OSC-Chataigne-Module
-Mike's Special EOS Console OSC Control
+# OSC to AtemOSC Chataigne Module
+Manu's Special EOS Console OSC Control
