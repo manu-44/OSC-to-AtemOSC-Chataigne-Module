@@ -1,2 +1,2 @@
 # OSC to AtemOSC Chataigne Module
-Manu's Special EOS Console OSC Control
+Manu's Special OSC Control for Blackamgic Atem Devices
