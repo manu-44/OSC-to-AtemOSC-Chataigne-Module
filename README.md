@@ -15,7 +15,7 @@ ______________________________________________
 
 OSC MESSAGES :
 
-Program and Preview Selection
+# Program and Preview Selection
 
     Black
 
@@ -35,20 +35,19 @@ Program and Preview Selection
 
     Auxiliary 1
 
-    and so on...
 
+# Transition Control
 
-Transition Control
-
-    T-bar
-    	with float 0 to 1
+    T-bar	(with float 0 to 1)
+    
     Cut
-    Auto
-    	with type : MIX, DIP, WIPE, Stinger or DVE
-    	with rate : set up time for auto transition
+    
+    Auto (MIX, DIP, WIPE, Stinger or DVE 	AND 	rate : set up time for auto transition)
+    
     Fade to Black Toggle
+    
     Preview Transition
 
-Auxiliary Source Selection
+# Auxiliary Source Selection
 
     Set Source for Aux 1 to 6
