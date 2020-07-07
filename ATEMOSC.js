@@ -21,9 +21,8 @@ function transitionCallback(type, tbar, typeauto, rate, preview)
 
 	if (type=="preview")
 		{
-			local.send("/atem/preview "+preview);
-			//if (preview==0) local.send("/atem/preview false");
-			//if (preview==1) local.send("/atem/preview true");
+			if (preview==0) local.send("/atem/preview false");
+			if (preview==1) local.send("/atem/preview true");
 		}
 
 	else local.send("/atem/"+type);
