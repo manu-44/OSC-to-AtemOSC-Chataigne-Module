@@ -13,9 +13,9 @@ Have Fun !
 
 ______________________________________________
 
-OSC MESSAGES :
+## OSC MESSAGES :
 
-# Program and Preview Selection
+### Program and Preview Selection
 
     Black
 
@@ -36,7 +36,7 @@ OSC MESSAGES :
     Auxiliary 1
 
 
-# Transition Control
+### Transition Control
 
     T-bar	(with float 0 to 1)
     
@@ -48,6 +48,6 @@ OSC MESSAGES :
     
     Preview Transition
 
-# Auxiliary Source Selection
+### Auxiliary Source Selection
 
     Set Source for Aux 1 to 6
