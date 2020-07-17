@@ -1,14 +1,16 @@
-# OSC-to-AtemOSC-Chataigne-Module
+# You have a Mac and you want to control your Blackmagic ATEM from Chataigne with AtemOSC ?
 
-Chataigne Module to control AtemOSC APP via OSC.
+## It's with this module !!!
 
-Download AtemOSC here : https://github.com/danielbuechele/atemOSC/releases
+1- Download AtemOSC here : https://github.com/danielbuechele/atemOSC/releases
 
-Open AtemOSC APP and connect your Blackmagic Device.
+2- Open AtemOSC APP and connect your Blackmagic Device.
 
-Install this Custom Module.
+3- Install this Custom Module.
 
-Open Chataigne and launch OSC to AtemOSC custom module.
+4- Open Chataigne and launch OSC to AtemOSC custom module.
+
+5- You can now select your program & preview, use a MIDI controller to have a real TBar transition and more !!!
 
 Have Fun !
 
@@ -41,9 +43,9 @@ ______________________________________________
 
     T-bar	(with float 0 to 1)
     
-    Cut
+    Cut (just trigger)
     
-    Auto (MIX, DIP, WIPE, Stinger or DVE 	AND 	rate : set up time for auto transition)
+    Auto transition (MIX, DIP, WIPE, Stinger or DVE 	AND 	rate : set up time for auto transition)
     
     Fade to Black Toggle
     
