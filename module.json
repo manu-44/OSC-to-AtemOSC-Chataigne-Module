@@ -67,6 +67,7 @@
 						"Program":"program",
 						"Preview":"preview",
 					}
+					"description":"Send source to program or previw ?",
 				},
 				"Source":
 				{
