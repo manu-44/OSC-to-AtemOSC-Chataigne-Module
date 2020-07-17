@@ -3,7 +3,7 @@
 	"type":"OSC",
 	"path":"Software",
 	
-	"version":"1.0.0",
+	"version":"1.0.1",
 	"description":"Module to control AtemOSC App via OSC - Install and launch AtemOSC from https://github.com/danielbuechele/atemOSC/releases - JUST FOR MAC USERS",
 	"url":"https://github.com/manu-44/OSC-to-AtemOSC-Chataigne-Module",
 	"downloadURL":"https://github.com/manu-44/OSC-to-AtemOSC-Chataigne-Module/archive/master.zip",
