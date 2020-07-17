@@ -4,8 +4,8 @@
 	"path":"Software",
 	
 	"version":"1.0.0",
-	"description":"Manu's special module to control AtemOSC through OSC",
-	"url":"https://github.com/",
+	"description":"Module to control AtemOSC App via OSC - Just for MAC USERS",
+	"url":"https://github.com/manu-44/OSC-to-AtemOSC-Chataigne-Module",
 	"downloadURL":"https://github.com/",
 
 	"hasInput":true,
