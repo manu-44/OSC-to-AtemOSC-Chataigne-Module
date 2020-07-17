@@ -1,5 +1,6 @@
 # OSC-to-AtemOSC-Chataigne-Module
-Manu's OSC to AtemOSC Control
+
+Chataigne Module to control AtemOSC APP via OSC.
 
 Download AtemOSC here : https://github.com/danielbuechele/atemOSC/releases
 
