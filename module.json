@@ -62,12 +62,12 @@
 				"Program/Preview":
 				{
 					"type":"Enum",
+					"description":"Send source to program or preview ?",
 					"options":
 					{
 						"Program":"program",
 						"Preview":"preview",
 					}
-					"description":"Send source to program or previw ?",
 				},
 				"Source":
 				{
